@@ -5,12 +5,18 @@
 </script>
   </body>
 <h3 id='url'>https://localhost:8080/</h3>
-	<form onSubmit=formSubmit()>
+	<form onSubmit=formSubmit(event)>
 		<label for="name">Name:</label>
-		<input id="name" name="name" required></input>
+		<input type="text" id="name" name="name" required></input>
+		</br>
+		</br>
+
 		<label for="year">Graduation Year:</label>
-		<input id="year" name="year" required></input>
-		<button id="button">Submit</button>
+		<input type="number" id="year" name="year" required></input>
+		</br>
+		</br>
+		<button id="button" type="submit">Submit</button>
 		
 	</form>
+	
 </html>
